@@ -2,120 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="725438a8-aaa1-404d-8d57-d9a7dd698a9b" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular-route\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular-route\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular-route\angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular-route\angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular-route\angular-route.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular-route\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular\angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular\angular.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular\angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular\angular.min.js.gzip" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular\angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\angular\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\dist\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\dist\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\dist\jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\ajax\jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\ajax\load.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\ajax\parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\ajax\parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\ajax\script.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\ajax\var\nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\ajax\var\rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\ajax\xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\attributes\attr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\attributes\classes.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\attributes\prop.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\attributes\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\attributes\val.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\core.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\core\access.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\core\init.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\core\parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\core\ready.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\core\var\rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css\addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css\curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css\defaultDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css\swap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css\var\cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css\var\getStyles.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css\var\isHidden.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css\var\rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\css\var\rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\data.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\data\Data.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\data\accepts.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\data\var\data_priv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\data\var\data_user.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\effects.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\effects\Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\effects\animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\event.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\event\ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\event\alias.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\event\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\exports\amd.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\exports\global.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\intro.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\manipulation\_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\manipulation\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\manipulation\var\rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\offset.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\outro.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\queue.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\queue\delay.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\selector-native.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\selector.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\sizzle\dist\sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\sizzle\dist\sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\sizzle\dist\sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\traversing\findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\arr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\concat.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\push.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\slice.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\strundefined.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\var\toString.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower\jquery\src\wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\lib\js\angularjs\angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\lib\js\angularjs\angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\lib\js\requirejs\require.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\script\app.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\script\controller\main\mainController.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\script\dependencyResolverFor.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\script\injector.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\script\route.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\view\main\test.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/script/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/script/coreModule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/script/main.js" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower_components\angular\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower_components\angular\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower_components\angular\angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower_components\angular\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower_components\angular\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower_components\angular\angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower_components\angular\angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\bower_components\angular\bower.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app.iws" />
@@ -140,13 +38,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="require.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.882353" vertical-offset="0" max-vertical-offset="400">
+              <caret line="8" column="69" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="require.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/bower_components/requirejs/require.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15337424" vertical-offset="1800" max-vertical-offset="52225">
-              <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="6234" max-vertical-offset="52225">
+              <caret line="262" column="33" selection-start-line="262" selection-start-column="28" selection-end-line="262" selection-end-column="33" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/script/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.30643514" vertical-offset="0" max-vertical-offset="979">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coreModule.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/script/coreModule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="300">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/script/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="300">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -161,14 +105,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/style/app.css" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/view/main/test.html" />
         <option value="$PROJECT_DIR$/app/script/route.js" />
         <option value="$PROJECT_DIR$/app/view/main/menu.html" />
         <option value="$PROJECT_DIR$/app/script/dependencyResolverFor.js" />
-        <option value="$PROJECT_DIR$/app/script/app.js" />
         <option value="$PROJECT_DIR$/app/script/injector.js" />
         <option value="$PROJECT_DIR$/app/script/controller/main/mainController.js" />
+        <option value="$PROJECT_DIR$/app/script/coreModule.js" />
+        <option value="$PROJECT_DIR$/app/script/app.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/script/main.js" />
       </list>
     </option>
   </component>
@@ -204,6 +150,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,13 +197,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,6 +230,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="applyBaseUrl&#9;null&#9;null&#10;baseUrl&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -275,10 +240,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -286,10 +255,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -329,26 +294,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2056" y="-403" width="2064" height="1138" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11994077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11994077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -372,6 +337,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="400">
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/requirejs/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="52225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="700">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/coreModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="300">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="300">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/style/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
@@ -417,14 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17201835" vertical-offset="0" max-vertical-offset="872">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/style/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
@@ -432,12 +437,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/coreModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/requirejs/require.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15337424" vertical-offset="1800" max-vertical-offset="52225">
-          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="6234" max-vertical-offset="52225">
+          <caret line="262" column="33" selection-start-line="262" selection-start-column="28" selection-end-line="262" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.882353" vertical-offset="0" max-vertical-offset="400">
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30643514" vertical-offset="0" max-vertical-offset="979">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
