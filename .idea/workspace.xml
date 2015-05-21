@@ -2,14 +2,328 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="725438a8-aaa1-404d-8d57-d9a7dd698a9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/script/controller/main/mainController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/server/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/server/testView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/main/testView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/script/service/dependencyResolverFor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/script/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/server.js" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\lib\application.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\lib\express.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\lib\middleware\init.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\lib\middleware\query.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\lib\request.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\lib\response.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\lib\router\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\lib\router\layer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\lib\router\route.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\lib\view.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\mime-types\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\mime-types\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\mime-types\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\mime-types\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\db.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\mime-types\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\negotiator\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\negotiator\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\negotiator\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\negotiator\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\negotiator\lib\charset.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\negotiator\lib\encoding.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\negotiator\lib\language.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\negotiator\lib\mediaType.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\node_modules\negotiator\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\accepts\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\content-disposition\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\content-disposition\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\content-disposition\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\content-disposition\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\content-disposition\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\content-type\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\content-type\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\content-type\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\content-type\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\content-type\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\cookie-signature\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\cookie-signature\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\cookie-signature\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\cookie-signature\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\cookie-signature\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\cookie\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\cookie\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\cookie\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\cookie\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\cookie\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\debug.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\node_modules\ms\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\node_modules\ms\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\node_modules\ms\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\node_modules\ms\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\node_modules\ms\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\debug\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\depd\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\depd\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\depd\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\depd\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\depd\lib\compat\buffer-concat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\depd\lib\compat\callsite-tostring.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\depd\lib\compat\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\depd\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\escape-html\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\escape-html\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\escape-html\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\escape-html\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\escape-html\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\escape-html\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\crc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\crc1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\crc16.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\crc16_ccitt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\crc16_modbus.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\crc24.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\crc32.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\crc8.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\crc8_1wire.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\create.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\hex.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\node_modules\crc\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\etag\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\finalhandler\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\finalhandler\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\finalhandler\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\finalhandler\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\finalhandler\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\fresh\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\fresh\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\fresh\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\fresh\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\fresh\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\merge-descriptors\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\merge-descriptors\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\merge-descriptors\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\merge-descriptors\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\methods\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\methods\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\methods\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\methods\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\methods\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\on-finished\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\on-finished\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\on-finished\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\on-finished\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\on-finished\node_modules\ee-first\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\on-finished\node_modules\ee-first\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\on-finished\node_modules\ee-first\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\on-finished\node_modules\ee-first\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\on-finished\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\parseurl\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\parseurl\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\parseurl\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\parseurl\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\parseurl\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\parseurl\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\path-to-regexp\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\path-to-regexp\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\path-to-regexp\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\path-to-regexp\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\path-to-regexp\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\path-to-regexp\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\path-to-regexp\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\forwarded\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\forwarded\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\forwarded\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\forwarded\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\forwarded\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\Cakefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\ipaddr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\lib\ipaddr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\src\ipaddr.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\node_modules\ipaddr.js\test\ipaddr.test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\proxy-addr\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\.jshintignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\lib\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\lib\stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\test\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\qs\test\stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\range-parser\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\range-parser\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\range-parser\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\range-parser\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\range-parser\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\.bin\mime" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\.bin\mime.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\destroy\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\destroy\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\destroy\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\mime\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\mime\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\mime\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\mime\build\build.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\mime\build\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\mime\cli.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\mime\mime.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\mime\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\mime\types.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\ms\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\ms\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\ms\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\ms\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\node_modules\ms\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\send\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\.bin\mime" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\.bin\mime.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\debug\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\debug\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\debug\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\debug\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\debug\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\debug\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\debug\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\debug\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\debug\debug.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\debug\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\debug\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\destroy\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\destroy\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\destroy\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\crc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\crc1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\crc16.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\crc16_ccitt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\crc16_modbus.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\crc24.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\crc32.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\crc8.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\crc8_1wire.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\create.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\hex.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\node_modules\crc\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\etag\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\build\build.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\build\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\cli.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\mime.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\types.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\ms\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\ms\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\ms\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\ms\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\ms\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\ms\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\node_modules\send\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\serve-static\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\media-typer\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\media-typer\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\media-typer\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\media-typer\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\media-typer\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\mime-types\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\mime-types\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\mime-types\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\mime-types\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\db.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\mime-types\node_modules\mime-db\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\node_modules\mime-types\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\type-is\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\utils-merge\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\utils-merge\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\utils-merge\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\utils-merge\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\utils-merge\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\vary\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\vary\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\vary\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\vary\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\vary\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\node_modules\vary\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\node_modules\express\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\server.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\app\app\server\testView.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-route/README.md" afterPath="$PROJECT_DIR$/app/bower_components/angular-route/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular-route/angular-route.js" afterPath="$PROJECT_DIR$/app/bower_components/angular-route/angular-route.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/script/app.js" afterPath="$PROJECT_DIR$/app/script/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/script/coreModule.js" afterPath="$PROJECT_DIR$/app/script/coreModule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/script/main.js" afterPath="$PROJECT_DIR$/app/script/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/script/controller/main/mainController.js" afterPath="$PROJECT_DIR$/app/script/controller/main/mainController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/main/testView.html" afterPath="$PROJECT_DIR$/app/view/main/testView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app.iws" />
@@ -37,33 +351,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="425">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state vertical-scroll-proportion="-3.6764705" vertical-offset="0" max-vertical-offset="425">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/server/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24834438" vertical-offset="0" max-vertical-offset="906">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/script/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="850">
-              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +361,20 @@
       <file leaf-file-name="mainController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/script/controller/main/mainController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="275">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="275">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/script/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6898455" vertical-offset="0" max-vertical-offset="1375">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -83,21 +385,9 @@
       <file leaf-file-name="testView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/main/testView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-              <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="150">
+              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coreModule.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/script/coreModule.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="250">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -105,8 +395,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/script/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1250">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -114,11 +404,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testView.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/server/testView.html">
+      <file leaf-file-name="dependencyResolverFor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/script/service/dependencyResolverFor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -134,21 +424,26 @@
       <list>
         <option value="$PROJECT_DIR$/app/style/app.css" />
         <option value="$PROJECT_DIR$/app/view/main/test.html" />
-        <option value="$PROJECT_DIR$/app/script/route.js" />
         <option value="$PROJECT_DIR$/app/view/main/menu.html" />
         <option value="$PROJECT_DIR$/app/script/dependencyResolverFor.js" />
         <option value="$PROJECT_DIR$/app/script/injector.js" />
         <option value="$PROJECT_DIR$/app/view/index.html" />
         <option value="$PROJECT_DIR$/app/server/view/index.html" />
-        <option value="$PROJECT_DIR$/app/server/server.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/script/main.js" />
         <option value="$PROJECT_DIR$/app/script/coreModule.js" />
-        <option value="$PROJECT_DIR$/app/script/controller/main/mainController.js" />
         <option value="$PROJECT_DIR$/app/view/main.html" />
-        <option value="$PROJECT_DIR$/app/view/main/testView.html" />
         <option value="$PROJECT_DIR$/app/server/testView.html" />
+        <option value="$PROJECT_DIR$/app/server/server.js" />
+        <option value="$PROJECT_DIR$/app/server/app/view/main/testView.html" />
+        <option value="$PROJECT_DIR$/app/server.js" />
+        <option value="$PROJECT_DIR$/app/script/main.js" />
+        <option value="$PROJECT_DIR$/app/view/main/testView.html" />
+        <option value="$PROJECT_DIR$/app/script/route.js" />
+        <option value="$PROJECT_DIR$/app/script/service/dependencyResolverFor.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/script/mainController.js" />
+        <option value="$PROJECT_DIR$/app/script/routes.js" />
         <option value="$PROJECT_DIR$/app/script/app.js" />
+        <option value="$PROJECT_DIR$/app/script/controller/main/mainController.js" />
       </list>
     </option>
   </component>
@@ -238,6 +533,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -262,10 +597,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -273,10 +612,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -330,21 +665,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14752372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.02584493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9453376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.02584493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9453376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -370,19 +705,53 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="425">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="425">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/server.js">
+    <entry file="file://$PROJECT_DIR$/app/script/controller/main/mainController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="375">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="275">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/main/testView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="450">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="425">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -431,14 +800,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/testView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -546,35 +907,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/node_modules/express/lib/express.js">
+    <entry file="file://$PROJECT_DIR$/app/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31088084" vertical-offset="0" max-vertical-offset="2475">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/script/coreModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="250">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/main/testView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
-          <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.13796909" vertical-offset="0" max-vertical-offset="906">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/script/controller/main/mainController.js">
+    <entry file="file://$PROJECT_DIR$/app/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="275">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.16556291" vertical-offset="0" max-vertical-offset="906">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
@@ -583,44 +927,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="425">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state vertical-scroll-proportion="-3.6764705" vertical-offset="0" max-vertical-offset="425">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/testView.html">
+    <entry file="file://$PROJECT_DIR$/app/view/main/testView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/script/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="850">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/script/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1250">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/server.js">
+    <entry file="file://$PROJECT_DIR$/app/script/controller/main/mainController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24834438" vertical-offset="0" max-vertical-offset="906">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="275">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/service/dependencyResolverFor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/coreModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11037528" vertical-offset="0" max-vertical-offset="906">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/script/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6898455" vertical-offset="0" max-vertical-offset="1375">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
