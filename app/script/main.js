@@ -1,6 +1,3 @@
-/**
- * Created by derek on 5/17/2015.
- */
 require.config({
     paths:{
         'jquery':'../bower_components/jquery/dist/jquery',
@@ -9,7 +6,6 @@ require.config({
         "app":'../script/app',
         "coreModule" : '../script/coreModule'
     },
-
     shim:{
         "app":{
             deps:['coreModule']
@@ -25,7 +21,6 @@ require.config({
         }
     }
 });
-
-require(['app'], function(app){
-    angular.bootstrap(document,['app']);
+require(['app'], function(app,coreModule){
+    angular.bootstrap(document,['app','coreModule']);
 });

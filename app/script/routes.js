@@ -1,12 +1,8 @@
-/**
- * Created by derek on 5/20/2015.
- */
 define([], function () {
     var mainSaleswebDependencies = [
     ];
 
     var mainServicewebDependencies = [
-
     ];
 
     var addDependencies = function (newDependencies) {
@@ -14,8 +10,7 @@ define([], function () {
         files = mainSaleswebDependencies.concat(files);
         files = mainServicewebDependencies.concat(files);
         return files;
-    }
-
+    };
     return {
         defaultRoutePath: '/',
         routes: {

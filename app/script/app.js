@@ -1,15 +1,8 @@
-/**
- * Created by derek on 5/17/2015.
- */
 define(['routes', 'service/dependencyResolverFor'],function(config,dependencyResolverFor){
     var app = angular.module('app',['ngRoute']);
-
     app.controller('MainController', function($scope){
         $scope.title='hello world';
     });
-
-    console.log(app);
-
     app.config([
         '$routeProvider',
         '$locationProvider',
@@ -18,7 +11,7 @@ define(['routes', 'service/dependencyResolverFor'],function(config,dependencyRes
         '$filterProvider',
         '$provide',
         function($routeProvider, $locationProvider, $controllerProvider, $compileProvider, $filterProvider, $provide){
-            //app.controller = $controllerProvider.register;
+            app.controller = $controllerProvider.register;
             app.directive = $compileProvider.directive;
             app.filter = $filterProvider.register;
             app.factory = $provide.factory;
@@ -26,9 +19,6 @@ define(['routes', 'service/dependencyResolverFor'],function(config,dependencyRes
             app.provider = $provide.provider;
     }]);
 
-
-
-    console.log(app);
     app.config(['$routeProvider', function($routeProvider){
         if (config.routes !== undefined) {
             angular.forEach(config.routes, function(route, path) {
@@ -40,8 +30,5 @@ define(['routes', 'service/dependencyResolverFor'],function(config,dependencyRes
             });
         }
     }]);
-
-
-
     return app;
 });

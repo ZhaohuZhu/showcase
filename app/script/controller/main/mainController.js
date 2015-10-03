@@ -1,8 +1,5 @@
-/**
- * Created by derek on 5/17/2015.
- */
 define(['app'],function(app){
-    app.controller('caseController',function($scope){
+    app.controller('caseCtrl',['$scope',function($scope){
         $scope.lacat = 'home';
-    });
-})
+    }]);
+});
