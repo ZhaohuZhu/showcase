@@ -1,14 +1,9 @@
 define([], function () {
-    var mainSaleswebDependencies = [
+    var mainAppDependencies = [
     ];
-
-    var mainServicewebDependencies = [
-    ];
-
     var addDependencies = function (newDependencies) {
         var files = newDependencies;
-        files = mainSaleswebDependencies.concat(files);
-        files = mainServicewebDependencies.concat(files);
+        files = mainAppDependencies.concat(files);
         return files;
     };
     return {
