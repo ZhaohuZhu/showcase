@@ -17,7 +17,8 @@ define(['routes', 'service/dependencyResolverFor'],function(config,dependencyRes
             app.factory = $provide.factory;
             app.service = $provide.service;
             app.provider = $provide.provider;
-    }]);
+        }
+    ]);
 
     app.config(['$routeProvider', function($routeProvider){
         if (config.routes !== undefined) {

@@ -20,6 +20,12 @@ define([], function () {
                 dependencies: addDependencies([
                     'controller/main/mainController'
                 ])
+            },
+            '/dashboard': {
+                templateUrl: '/view/dashboard/index.html',
+                dependencies: addDependencies([
+                    'controller/main/mainController'
+                ])
             }
         }
     };
