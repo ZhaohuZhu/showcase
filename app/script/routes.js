@@ -10,9 +10,9 @@ define([], function () {
         defaultRoutePath: '/',
         routes: {
             '/': {
-                templateUrl: '/view/main/testView.html',
+                templateUrl: '/view/dashboard/index.html',
                 dependencies: addDependencies([
-                    'controller/main/mainController'
+                    'controller/dashboard/dashboardController'
                 ])
             },
             '/home': {

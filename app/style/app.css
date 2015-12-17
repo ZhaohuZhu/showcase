@@ -1,13 +1,10 @@
 body{
-    background: url("../image/background/background_1.jpg") no-repeat;
-    background-size:  100vw 100vh;
     font-family: 'Roboto', sans-serif;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     border: none !important;
 }
-
 .app-icon{
     width: 100px;
     height: 100px;
@@ -16,9 +13,36 @@ body{
 }
 
 .app-icon-dashboard{
-    background: url("../image/main/Dashboard-icon.png") no-repeat;
-    background-size: 90px 90px;
     border: none !important;
     outline: none !important;
 
 }
+
+#app-side-menu{
+    width: 230px;
+    height: 100%;
+    color: #fafafa;
+    background: #2F3B4C;
+}
+
+#app-side-menu-name{
+    background: #36D7B7;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    height: 60px;
+}
+
+.app-menu-label,.app-menu-option{
+    height: 35px;
+    padding: 8px 20px 0 20px;
+}
+
+.app-menu-option:hover{
+    background: #5D7698;
+    cursor:pointer;
+}
+
+
+
+

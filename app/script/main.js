@@ -3,7 +3,7 @@ require.config({
         'jquery':'../bower_components/jquery/dist/jquery',
         "angular" : '../bower_components/angularjs/angular',
         "angular_route" : '../bower_components/angular-route/angular-route',
-        "materialize" : '../bower_components/materialize/dist/js/materialize',
+        "bootstrap" : '../bower_components/bootstrap/dist/js/bootstrap.min',
         "app":'../script/app',
         "coreModule" : '../script/coreModule'
     },
@@ -18,9 +18,9 @@ require.config({
             deps:['angular']
         },
         "coreModule":{
-            deps:['jquery','angular','angular_route','materialize']
+            deps:['jquery','angular','angular_route','bootstrap']
         },
-        "materialize":{
+        "bootstrap":{
             deps:['jquery','angular']
         }
     }
